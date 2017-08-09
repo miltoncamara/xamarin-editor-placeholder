@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+	xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:local="clr-namespace:EntryPlaceholder.Controls;assembly=EntryPlaceholder"
+	x:Class="EntryPlaceholder.EntryPlaceholderPage">
+	<StackLayout VerticalOptions="Center" Margin="10, 20, 20, 10">
+		<Label Text="Xamarin Forms — Criando um campo de texto com suporte a Placeholder — Android e iOS" />
+		<local:EditorPlaceholder HeightRequest="300" Placeholder="Controle Editor com Placeholder" />			
+	</StackLayout>
+</ContentPage>
